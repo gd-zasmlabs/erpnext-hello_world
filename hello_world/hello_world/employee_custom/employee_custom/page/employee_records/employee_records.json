@@ -2,7 +2,8 @@
   "title": "Employee Records",
   "icon": "octicon octicon-person",
   "route": "employee-records",
-  "doctype": "page",
+  "doctype": "Page",
   "name": "employee_records",
-  "module": "Employee Custom"
+  "module": "Employee Custom",
+  "type":"page"
 }
