@@ -1,0 +1,28 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+    <h2>These are the employees:</h2>
+
+    {% if employees %}
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for emp in employees %}
+                    <tr>
+                        <td>{{ emp.name }}</td>
+                        <td>{{ emp.employee_name }}</td>
+                        <td>{{ emp.gender or 'Not Set' }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No employees found.</p>
+    {% endif %}
+{% endblock %}
