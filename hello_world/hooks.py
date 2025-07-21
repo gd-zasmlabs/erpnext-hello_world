@@ -14,6 +14,10 @@ website_context = {
 app_include_js = [
     "/employee_custom/page/employee_records/employee_records.js"
 ]
+doctype_list = ["Student"]
+
+fixtures = doctype_list
+
 
 # required_apps = []
 
