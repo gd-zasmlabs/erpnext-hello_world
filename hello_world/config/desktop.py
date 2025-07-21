@@ -11,9 +11,9 @@ def get_data():
             "description": "Custom Employee Utilities",
             "items": [
                 {
-                    "type": "page",
-                    "name": "employee_records",
-                    "label": _("Employee Records")
+                    "type": "doctype",
+                    "name": "Student",
+                    "label": _("Student")
                 }
             ]
         }
