@@ -3,7 +3,7 @@ from frappe import _
 def get_data():
     return [
         {
-            "module_name": "Employee Custom",
+            "module_name": "hello_world",
             "label": _("Employee Custom"),
             "color": "#2980b9",
             "icon": "octicon octicon-person",
