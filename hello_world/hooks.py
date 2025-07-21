@@ -9,8 +9,11 @@ app_license = "mit"
 # ------------------
 
 website_context = {
-    "brand_html": "Hello World"
+    "brand_html": "ZasmLabs"
     }
+app_include_js = [
+    "/employee_custom/page/employee_records/employee_records.js"
+]
 
 # required_apps = []
 
