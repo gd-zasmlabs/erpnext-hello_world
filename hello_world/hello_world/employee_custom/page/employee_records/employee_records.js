@@ -6,7 +6,7 @@ frappe.pages['employee-records'].on_page_load = function(wrapper) {
     });
 
     frappe.call({
-        method: 'hello_world.employee_custom.employee_custom.page.employee_records.employee_records.get_employees',
+        method: 'hello_world.employee_custom.page.employee_records.employee_records.get_employees',
         callback: function(r) {
             const data = r.message;
             let html = `

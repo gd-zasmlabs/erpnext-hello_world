@@ -4,6 +4,6 @@
   "route": "employee-records",
   "doctype": "Page",
   "name": "employee_records",
-  "module": "Employee Custom",
+  "module": "employee_custom",
   "type":"page"
 }
